@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-Fatal
 Version  : 0.014
-Release  : 16
+Release  : 17
 URL      : http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Test-Fatal-0.014.tar.gz
 Source0  : http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Test-Fatal-0.014.tar.gz
 Summary  : 'incredibly simple helpers for testing code with exceptions'
@@ -42,6 +42,13 @@ else
 %{__perl} Build.PL
 ./Build
 fi
+
+%check
+export LANG=C
+export http_proxy=http://127.0.0.1:9/
+export https_proxy=http://127.0.0.1:9/
+export no_proxy=localhost,127.0.0.1,0.0.0.0
+make TEST_VERBOSE=1 test
 
 %install
 rm -rf %{buildroot}
