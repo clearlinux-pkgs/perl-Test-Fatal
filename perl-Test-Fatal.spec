@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-Fatal
 Version  : 0.014
-Release  : 24
+Release  : 25
 URL      : http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Test-Fatal-0.014.tar.gz
 Source0  : http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Test-Fatal-0.014.tar.gz
 Summary  : 'incredibly simple helpers for testing code with exceptions'
