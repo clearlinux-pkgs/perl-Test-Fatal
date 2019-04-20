@@ -4,10 +4,10 @@
 #
 Name     : perl-Test-Fatal
 Version  : 0.014
-Release  : 28
+Release  : 29
 URL      : http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Test-Fatal-0.014.tar.gz
 Source0  : http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Test-Fatal-0.014.tar.gz
-Summary  : 'incredibly simple helpers for testing code with exceptions'
+Summary  : Incredibly simple helpers for testing code with exceptions
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
 Requires: perl-Test-Fatal-license = %{version}-%{release}
@@ -24,6 +24,7 @@ incredibly simple helpers for testing code with exceptions
 Summary: dev components for the perl-Test-Fatal package.
 Group: Development
 Provides: perl-Test-Fatal-devel = %{version}-%{release}
+Requires: perl-Test-Fatal = %{version}-%{release}
 
 %description dev
 dev components for the perl-Test-Fatal package.
@@ -76,7 +77,7 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.1/Test/Fatal.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Test/Fatal.pm
 
 %files dev
 %defattr(-,root,root,-)
