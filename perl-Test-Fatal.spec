@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-Fatal
 Version  : 0.014
-Release  : 36
+Release  : 37
 URL      : http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Test-Fatal-0.014.tar.gz
 Source0  : http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Test-Fatal-0.014.tar.gz
 Summary  : 'incredibly simple helpers for testing code with exceptions'
@@ -99,4 +99,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Fatal.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Fatal.pm
