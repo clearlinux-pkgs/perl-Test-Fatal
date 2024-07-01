@@ -5,7 +5,7 @@
 #
 Name     : perl-Test-Fatal
 Version  : 0.017
-Release  : 52
+Release  : 53
 URL      : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Fatal-0.017.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Fatal-0.017.tar.gz
 Summary  : 'incredibly simple helpers for testing code with exceptions'
